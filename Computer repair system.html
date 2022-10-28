@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <title> CRS</title>
+       <style>
+       body{
+          background:url("C:/Users/User/OneDrive/Desktop/wallapaper/10.jpg");
+          background-size:cover;                         /*(Full-Half-Quater-cover)*/
+          font-family: sans-serif;
+           }
+      .loginbox
+      {
+        width: 320px;
+        height: 950px;
+        background: #000;
+        color: #fff;
+        top:00%;
+        left:36%;
+        position:absolute;                             /*Relative-Static-Absolute*/
+        transform:translate{-50%,-50%}
+        box-sizing: border-box;
+        padding: 70px 30px;
+        opacity:.7;
+      }
+      h1
+      { 
+         margin:0;
+        padding: 0 0 20px;
+        text-align: center; /* Center-Left-Right-Justify*/
+        font-family:AR JULIAN;
+        font-size:30px;
+        color:#blueviolet;
+        }    
+      .loginbox p
+      {  
+        margin:0;
+        padding: 0;
+        font-weight:bold;
+      }
+      .loginbox input
+      {
+        width: 100%;
+        margin-bottom:20px;
+        }
+      .loginbox textarea,input[type="text"], input[type="password"], input[type="textarea"],input[type="date"],input[type="time"],input[type="number"],select,object
+      {
+          border-bottom: 1px solid #fff;
+          background: transparent;
+          outline:none;
+          height:40px;
+          color:#fff;
+          font-size:16px;
+              }
+      .loginbox input[type="submit"]{
+          border: none;
+          outline:none;
+          height:50px;
+          background:#fb2525;
+          color: #fff;
+          font-size:18px;
+          border-radius:30px;
+          }
+          /*Event mouse-over */
+      .loginbox input[type="submit"]:hover
+      {    cursor:pointer;
+          background:#ffc107;
+          color:#000;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="loginbox">
+    <form>
+      <center><h1>Computer Repair System</h1></center>
+
+    <p> Enter Customer Details</p>
+    <input type="text" name="" placeholder="Enter Username">
+
+    <p> Password</p>
+    <input type="password" placeholder="Enter Password"><br>
+     <p> Phone no</p>
+    <input type="number"  placeholder="Enter Phone"><br>
+    <p> Enter Address</p>
+    <textarea cols='60' rows='8' placeholder="Enter Address"></textarea><br>
+    <p> Date</p>
+    <input type="date" placeholder="Enter Date"><br>
+    <p> Time</p>
+    <input type="time" placeholder="Enter Time"><br>
+    <p> Enter PC or Desktop details</p>
+    <p> Computer Name</p>
+    <input type="text" placeholder="Enter Computer Name"><br>
+    <p> Computer Info</p>
+    <input type="text" placeholder="Enter Computer Info"><br>
+    <p> Date of Purchase</p>
+    <input type="Date" placeholder="Date of Purchase"><br>
+    <p> Category</p>
+    <select>
+      <option>1.Laptop</option>
+      <option>2.PC or Desktop</option>
+      <option>3.Tablet</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+    </div>
+  </body>
+</html>
